@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -16,5 +17,5 @@ int main()
     printf("The difference of your numbers is %d\n",firstNum-secondNum);
     printf("The quotient of your numbers is %d\n",firstNum/secondNum);
 
-    return 0;
+    return EXIT_SUCCESS;
 }
