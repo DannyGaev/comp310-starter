@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+int main(int argc, char *argv[])
 {
     char word[] = "Hello there, my name is Ford Prefect!";
     int strLength;
@@ -14,5 +15,6 @@ int main()
         newWord[strLength-1-x] = word[x];
     }
     printf("New word: %s\n",newWord);
-    return 0;
+    
+    return EXIT_SUCCESS;
 }
