@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int linearSearch(int a[], int num);
 
-int main()
+int main(int argc, char *argv[])
 {
     int a[] = {1,4,7,9,12};
     int num = 9;
