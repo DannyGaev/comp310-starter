@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
     {
         printf("Element was not found in the array :(\n");
     }
+    return EXIT_SUCCESS;
 
 }
 
