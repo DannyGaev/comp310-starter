@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+int main(int argc, char *argv[])
 {
     int numbers[5] = {1,2,3,4,5};
     int sum = 0;
@@ -10,4 +11,6 @@ int main()
     }
     printf("The sum of the array is %d\n",sum);
     printf("The average of the numbers in the array is %d\n",sum/5);
+    
+    return EXIT_SUCCESS;
 }
