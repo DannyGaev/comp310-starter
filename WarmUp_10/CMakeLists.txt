@@ -1,5 +1,4 @@
-
 add_executable(
-	print_args
-	print_args.c)
+	warmUp10
+	warmUp10.c)
 
